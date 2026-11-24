@@ -1,0 +1,374 @@
+Flags: D - DYNAMIC; X - DISABLED; I - INACTIVE, R - RUNNING; S - SLAVE; 
+P - PASSTHROUGH 
+ 0   R   name="bridge10" type="bridge" mtu=auto actual-mtu=9014 l2mtu=9014 
+         vrf=main mac-address=02:00:5e:f8:35:32 
+         last-link-up-time=2026-10-26 11:14:37 link-downs=0 
+
+Flags: X - DISABLED, R - RADIUS, D - DYNAMIC, B - BLOCKED 
+ 0   address=10.20.0.7 mac-address=02:00:5E:C7:83:C0 
+     client-id="ff:ca:53:9:5a:0:2:0:0:ab:11:6:02:00:5e:53:99:90:2a" 
+     address-lists="" server=dhcp3 dhcp-option="" agent-circuit-id="" 
+     agent-remote-id="" status=bound expires-after=21m17s last-seen=8m43s 
+     active-address=10.20.0.7 active-mac-address=02:00:5E:C7:83:C0 
+     active-client-id="ff:ca:53:9:5a:0:2:0:0:ab:11:6:02:00:5e:53:99:90:2a" 
+     active-server=dhcp3 active-agent-circuit-id="" active-agent-remote-id="" 
+     host-name="caddy" 
+
+ 1 D address=10.20.0.6 mac-address=02:00:5E:FD:BC:11 
+     client-id="1:02:00:5e:fd:bc:11" address-lists="" server=dhcp3 
+     dhcp-option="" agent-circuit-id="" agent-remote-id="" status=bound 
+     expires-after=24m34s last-seen=5m26s active-address=10.20.0.6 
+     active-mac-address=02:00:5E:FD:BC:11 
+     active-client-id="1:02:00:5e:fd:bc:11" active-server=dhcp3 
+     active-agent-circuit-id="" active-agent-remote-id="" host-name="cAP" 
+
+ 2   address=10.20.0.13 mac-address=02:00:5e:39:43:37 address-lists="" 
+     server=dhcp3 dhcp-option="" agent-circuit-id="" agent-remote-id="" 
+     status=bound expires-after=15m24s last-seen=14m36s 
+     active-address=10.20.0.13 active-mac-address=02:00:5e:39:43:37 
+     active-client-id="1:0:16:3e:e:45:8d" active-server=dhcp3 
+     active-agent-circuit-id="" active-agent-remote-id="" host-name="bunode1" 
+
+ 3   address=10.20.0.14 mac-address=02:00:5e:f5:16:2e address-lists="" 
+     server=dhcp3 dhcp-option="" agent-circuit-id="" agent-remote-id="" 
+     status=bound expires-after=24m20s last-seen=5m40s 
+     active-address=10.20.0.14 active-mac-address=02:00:5e:f5:16:2e 
+     active-client-id="1:0:16:3e:fd:c3:6a" active-server=dhcp3 
+     active-agent-circuit-id="" active-agent-remote-id="" host-name="bunode2" 
+
+ 4   address=10.20.0.9 mac-address=02:00:5e:96:72:71 
+     client-id="1:0:16:3e:e:c:59" address-lists="" server=dhcp3 
+     dhcp-option="" agent-circuit-id="" agent-remote-id="" status=bound 
+     expires-after=24m31s last-seen=5m29s active-address=10.20.0.9 
+     active-mac-address=02:00:5e:96:72:71 active-client-id="1:0:16:3e:e:c:59" 
+     active-server=dhcp3 active-agent-circuit-id="" active-agent-remote-id="" 
+     host-name="buauth" 
+
+ 5   address=10.20.0.2 mac-address=02:00:5e:6b:55:70 
+     client-id="ff:ca:98:a1:f4:0:2:0:0:02:00:5e:3f:93:62:40:c7:b6:e" 
+     address-lists="" server=dhcp3 dhcp-option="" agent-circuit-id="" 
+     agent-remote-id="" status=bound expires-after=20m10s last-seen=9m50s 
+     active-address=10.20.0.2 active-mac-address=02:00:5e:6b:55:70 
+     active-client-id="ff:ca:98:a1:f4:0:2:0:0:02:00:5e:3f:93:62:40:c7:b6:e" 
+     active-server=dhcp3 active-agent-circuit-id="" active-agent-remote-id="" 
+     host-name="pibox" 
+
+ 6 D address=10.20.0.4 mac-address=02:00:5E:06:62:E4 
+     client-id="1:02:00:5e:06:62:e4" address-lists="" server=dhcp3 
+     dhcp-option="" agent-circuit-id="" agent-remote-id="" status=bound 
+     expires-after=19m30s last-seen=10m30s active-address=10.20.0.4 
+     active-mac-address=02:00:5E:06:62:E4 
+     active-client-id="1:02:00:5e:06:62:e4" active-server=dhcp3 
+     active-agent-circuit-id="" active-agent-remote-id="" 
+     host-name="AG02-homelab-2" 
+
+ 7 D address=10.20.0.5 mac-address=02:00:5E:6E:EA:CE 
+     client-id="1:02:00:5e:6e:ea:ce" address-lists="" server=dhcp3 
+     dhcp-option="" agent-circuit-id="" agent-remote-id="" status=bound 
+     expires-after=19m34s last-seen=10m26s active-address=10.20.0.5 
+     active-mac-address=02:00:5E:6E:EA:CE 
+     active-client-id="1:02:00:5e:6e:ea:ce" active-server=dhcp3 
+     active-agent-circuit-id="" active-agent-remote-id="" 
+     host-name="AG01-homelab-1" 
+
+ 8 D address=10.20.0.12 mac-address=02:00:5E:4D:A2:68 
+     client-id="1:02:00:5e:4d:a2:68" address-lists="" server=dhcp3 
+     dhcp-option="" agent-circuit-id="" agent-remote-id="" status=bound 
+     expires-after=21m55s last-seen=8m5s active-address=10.20.0.12 
+     active-mac-address=02:00:5E:4D:A2:68 
+     active-client-id="1:02:00:5e:4d:a2:68" active-server=dhcp3 
+     active-agent-circuit-id="" active-agent-remote-id="" 
+     host-name="AG03-homelab-3" 
+
+Flags: E - EXPECTED; S - SEEN-REPLY; A - ASSURED; C - CONFIRMED; D - DYING; 
+F - FASTTRACK; H - HW-OFFLOAD; s - SRCNAT; d - DSTNAT; h - USES-HELPER 
+ 0  SAC F     protocol=tcp src-address=10.20.0.7 src-port=56616 
+              dst-address=192.168.99.2 dst-port=8006 
+              reply-src-address=192.168.99.2 reply-src-port=8006 
+              reply-dst-address=10.20.0.7 reply-dst-port=56616 
+              tcp-state=time-wait timeout=9s orig-packets=13 orig-bytes=4 789 
+              orig-fasttrack-packets=7 orig-fasttrack-bytes=3 276 
+              repl-packets=9 repl-bytes=7 358 repl-fasttrack-packets=6 
+              repl-fasttrack-bytes=5 116 orig-rate=16.1kbps 
+              repl-rate=30.6kbps 
+
+ 1  SAC F     protocol=tcp src-address=10.20.0.14 src-port=55241 
+              dst-address=192.168.5.12 dst-port=1514 
+              reply-src-address=192.168.5.12 reply-src-port=1514 
+              reply-dst-address=10.20.0.14 reply-dst-port=55241 
+              tcp-state=established timeout=23h59m43s orig-packets=22 289 
+              orig-bytes=5 132 094 orig-fasttrack-packets=7 559 
+              orig-fasttrack-bytes=1 739 262 repl-packets=18 416 
+              repl-bytes=1 687 074 repl-fasttrack-packets=7 282 
+              repl-fasttrack-bytes=741 471 orig-rate=0bps repl-rate=0bps 
+
+ 2  S C F     protocol=udp src-address=192.168.99.8 src-port=39051 
+              dst-address=10.20.0.13 dst-port=53 reply-src-address=10.20.0.13 
+              reply-src-port=53 reply-dst-address=192.168.99.8 
+              reply-dst-port=39051 timeout=1s orig-packets=1 orig-bytes=68 
+              orig-fasttrack-packets=0 orig-fasttrack-bytes=0 repl-packets=1 
+              repl-bytes=100 repl-fasttrack-packets=0 repl-fasttrack-bytes=0 
+              orig-rate=0bps repl-rate=0bps 
+
+ 3  SAC F     protocol=tcp src-address=10.20.0.7 src-port=56592 
+              dst-address=192.168.99.2 dst-port=8006 
+              reply-src-address=192.168.99.2 reply-src-port=8006 
+              reply-dst-address=10.20.0.7 reply-dst-port=56592 
+              tcp-state=time-wait timeout=5s orig-packets=13 orig-bytes=3 646 
+              orig-fasttrack-packets=9 orig-fasttrack-bytes=3 430 
+              repl-packets=9 repl-bytes=5 335 repl-fasttrack-packets=6 
+              repl-fasttrack-bytes=5 171 orig-rate=0bps repl-rate=0bps 
+
+ 4  SAC F     protocol=tcp src-address=192.168.99.10 src-port=63497 
+              dst-address=10.20.0.2 dst-port=443 reply-src-address=10.20.0.2 
+              reply-src-port=443 reply-dst-address=192.168.99.10 
+              reply-dst-port=63497 tcp-state=established timeout=23h59m53s 
+              orig-packets=58 orig-bytes=59 443 orig-fasttrack-packets=54 
+              orig-fasttrack-bytes=57 693 repl-packets=30 repl-bytes=21 851 
+              repl-fasttrack-packets=27 repl-fasttrack-bytes=21 707 
+              orig-rate=0bps repl-rate=0bps 
+
+ 5  SAC F     protocol=tcp src-address=10.20.0.7 src-port=56600 
+              dst-address=192.168.99.2 dst-port=8006 
+              reply-src-address=192.168.99.2 reply-src-port=8006 
+              reply-dst-address=10.20.0.7 reply-dst-port=56600 
+              tcp-state=time-wait timeout=7s orig-packets=14 orig-bytes=4 851 
+              orig-fasttrack-packets=8 orig-fasttrack-bytes=3 342 
+              repl-packets=10 repl-bytes=6 717 repl-fasttrack-packets=6 
+              repl-fasttrack-bytes=5 164 orig-rate=0bps repl-rate=0bps 
+
+ 6  SAC F     protocol=tcp src-address=10.20.0.7 src-port=44876 
+              dst-address=192.168.99.2 dst-port=8006 
+              reply-src-address=192.168.99.2 reply-src-port=8006 
+              reply-dst-address=10.20.0.7 reply-dst-port=44876 
+              tcp-state=time-wait timeout=1s orig-packets=15 orig-bytes=4 921 
+              orig-fasttrack-packets=9 orig-fasttrack-bytes=3 408 
+              repl-packets=11 repl-bytes=7 518 repl-fasttrack-packets=6 
+              repl-fasttrack-bytes=5 163 orig-rate=0bps repl-rate=0bps 
+
+ 7  SAC F     protocol=tcp src-address=10.20.0.7 src-port=55796 
+              dst-address=192.168.99.2 dst-port=8006 
+              reply-src-address=192.168.99.2 reply-src-port=8006 
+              reply-dst-address=10.20.0.7 reply-dst-port=55796 
+              tcp-state=established timeout=23h59m41s orig-packets=951 
+              orig-bytes=86 997 orig-fasttrack-packets=715 
+              orig-fasttrack-bytes=71 395 repl-packets=909 repl-bytes=79 701 
+              repl-fasttrack-packets=676 repl-fasttrack-bytes=66 454 
+              orig-rate=0bps repl-rate=0bps 
+
+ 8  S C       protocol=udp src-address=10.20.0.2 src-port=38523 
+              dst-address=192.168.15.1 dst-port=123 
+              reply-src-address=192.168.15.1 reply-src-port=123 
+              reply-dst-address=10.20.0.2 reply-dst-port=38523 timeout=9s 
+              orig-packets=1 orig-bytes=76 orig-fasttrack-packets=0 
+              orig-fasttrack-bytes=0 repl-packets=1 repl-bytes=76 
+              repl-fasttrack-packets=0 repl-fasttrack-bytes=0 orig-rate=0bps 
+              repl-rate=0bps 
+
+ 9  S C       protocol=udp src-address=10.20.0.2 src-port=55101 
+              dst-address=192.168.30.1 dst-port=123 
+              reply-src-address=192.168.30.1 reply-src-port=123 
+              reply-dst-address=10.20.0.2 reply-dst-port=55101 timeout=8s 
+              orig-packets=1 orig-bytes=76 orig-fasttrack-packets=0 
+              orig-fasttrack-bytes=0 repl-packets=1 repl-bytes=76 
+              repl-fasttrack-packets=0 repl-fasttrack-bytes=0 orig-rate=0bps 
+              repl-rate=0bps 
+
+10  SAC F     protocol=tcp src-address=10.20.0.7 src-port=44886 
+              dst-address=192.168.99.2 dst-port=8006 
+              reply-src-address=192.168.99.2 reply-src-port=8006 
+              reply-dst-address=10.20.0.7 reply-dst-port=44886 
+              tcp-state=time-wait timeout=3s orig-packets=13 orig-bytes=4 785 
+              orig-fasttrack-packets=7 orig-fasttrack-bytes=3 276 
+              repl-packets=10 repl-bytes=6 698 repl-fasttrack-packets=6 
+              repl-fasttrack-bytes=5 146 orig-rate=0bps repl-rate=0bps 
+
+11  SAC F     protocol=tcp src-address=10.20.0.7 src-port=56632 
+              dst-address=192.168.99.2 dst-port=8006 
+              reply-src-address=192.168.99.2 reply-src-port=8006 
+              reply-dst-address=10.20.0.7 reply-dst-port=56632 
+              tcp-state=established timeout=23h59m59s orig-packets=7 
+              orig-bytes=2 023 orig-fasttrack-packets=5 
+              orig-fasttrack-bytes=1 911 repl-packets=6 repl-bytes=3 832 
+              repl-fasttrack-packets=5 repl-fasttrack-bytes=3 772 
+              orig-rate=0bps repl-rate=0bps 
+
+12  SAC F     protocol=tcp src-address=10.20.0.7 src-port=44892 
+              dst-address=192.168.99.2 dst-port=8006 
+              reply-src-address=192.168.99.2 reply-src-port=8006 
+              reply-dst-address=10.20.0.7 reply-dst-port=44892 
+              tcp-state=time-wait timeout=5s orig-packets=14 orig-bytes=4 874 
+              orig-fasttrack-packets=8 orig-fasttrack-bytes=3 361 
+              repl-packets=12 repl-bytes=10 257 repl-fasttrack-packets=8 
+              repl-fasttrack-bytes=7 949 orig-rate=0bps repl-rate=0bps 
+
+13  S C       protocol=udp src-address=10.20.0.1 src-port=45674 
+              dst-address=10.20.0.9 dst-port=53 reply-src-address=10.20.0.9 
+              reply-src-port=53 reply-dst-address=10.20.0.1 
+              reply-dst-port=45674 timeout=24s orig-packets=1 orig-bytes=57 
+              orig-fasttrack-packets=0 orig-fasttrack-bytes=0 repl-packets=1 
+              repl-bytes=89 repl-fasttrack-packets=0 repl-fasttrack-bytes=0 
+              orig-rate=0bps repl-rate=0bps 
+
+14  SAC F     protocol=tcp src-address=10.20.0.13 src-port=59353 
+              dst-address=192.168.5.12 dst-port=1514 
+              reply-src-address=192.168.5.12 reply-src-port=1514 
+              reply-dst-address=10.20.0.13 reply-dst-port=59353 
+              tcp-state=established timeout=23h59m49s orig-packets=32 305 
+              orig-bytes=9 141 236 orig-fasttrack-packets=16 829 
+              orig-fasttrack-bytes=5 464 322 repl-packets=28 073 
+              repl-bytes=2 301 885 repl-fasttrack-packets=15 343 
+              repl-fasttrack-bytes=1 316 164 orig-rate=0bps repl-rate=0bps 
+
+15  SAC F     protocol=tcp src-address=10.20.0.9 src-port=36587 
+              dst-address=192.168.5.12 dst-port=1514 
+              reply-src-address=192.168.5.12 reply-src-port=1514 
+              reply-dst-address=10.20.0.9 reply-dst-port=36587 
+              tcp-state=established timeout=23h59m42s orig-packets=17 805 
+              orig-bytes=4 178 268 orig-fasttrack-packets=3 502 
+              orig-fasttrack-bytes=1 150 700 repl-packets=11 935 
+              repl-bytes=1 295 960 repl-fasttrack-packets=3 404 
+              repl-fasttrack-bytes=322 843 orig-rate=0bps repl-rate=0bps 
+
+16  S C       protocol=udp src-address=10.20.0.2 src-port=47561 
+              dst-address=192.168.25.1 dst-port=123 
+              reply-src-address=192.168.25.1 reply-src-port=123 
+              reply-dst-address=10.20.0.2 reply-dst-port=47561 timeout=16s 
+              orig-packets=1 orig-bytes=76 orig-fasttrack-packets=0 
+              orig-fasttrack-bytes=0 repl-packets=1 repl-bytes=76 
+              repl-fasttrack-packets=0 repl-fasttrack-bytes=0 orig-rate=0bps 
+              repl-rate=0bps 
+
+17  SAC F     protocol=tcp src-address=192.168.99.10 src-port=55745 
+              dst-address=10.20.0.7 dst-port=443 reply-src-address=10.20.0.7 
+              reply-src-port=443 reply-dst-address=192.168.99.10 
+              reply-dst-port=55745 tcp-state=established timeout=23h59m59s 
+              orig-packets=626 orig-bytes=59 889 orig-fasttrack-packets=423 
+              orig-fasttrack-bytes=36 879 repl-packets=764 repl-bytes=410 047 
+              repl-fasttrack-packets=627 repl-fasttrack-bytes=390 624 
+              orig-rate=3.5kbps repl-rate=19.8kbps 
+
+18  SAC F     protocol=tcp src-address=192.168.99.10 src-port=53394 
+              dst-address=10.20.0.2 dst-port=443 reply-src-address=10.20.0.2 
+              reply-src-port=443 reply-dst-address=192.168.99.10 
+              reply-dst-port=53394 tcp-state=established timeout=23h59m52s 
+              orig-packets=341 orig-bytes=24 445 orig-fasttrack-packets=115 
+              orig-fasttrack-bytes=9 013 repl-packets=450 repl-bytes=32 381 
+              repl-fasttrack-packets=128 repl-fasttrack-bytes=16 278 
+              orig-rate=0bps repl-rate=0bps 
+
+19  S C F     protocol=udp src-address=192.168.99.8 src-port=53910 
+              dst-address=10.20.0.14 dst-port=53 reply-src-address=10.20.0.14 
+              reply-src-port=53 reply-dst-address=192.168.99.8 
+              reply-dst-port=53910 timeout=1s orig-packets=1 orig-bytes=68 
+              orig-fasttrack-packets=0 orig-fasttrack-bytes=0 repl-packets=1 
+              repl-bytes=100 repl-fasttrack-packets=0 repl-fasttrack-bytes=0 
+              orig-rate=0bps repl-rate=0bps 
+
+20  SAC F     protocol=tcp src-address=10.20.0.7 src-port=44882 
+              dst-address=192.168.99.2 dst-port=8006 
+              reply-src-address=192.168.99.2 reply-src-port=8006 
+              reply-dst-address=10.20.0.7 reply-dst-port=44882 
+              tcp-state=time-wait timeout=1s orig-packets=12 orig-bytes=3 594 
+              orig-fasttrack-packets=8 orig-fasttrack-bytes=3 378 
+              repl-packets=9 repl-bytes=5 100 repl-fasttrack-packets=6 
+              repl-fasttrack-bytes=4 936 orig-rate=0bps repl-rate=0bps 
+
+21  SAC F     protocol=tcp src-address=192.168.99.10 src-port=53390 
+              dst-address=10.20.0.7 dst-port=443 reply-src-address=10.20.0.7 
+              reply-src-port=443 reply-dst-address=192.168.99.10 
+              reply-dst-port=53390 tcp-state=established timeout=23h59m56s 
+              orig-packets=1 063 orig-bytes=83 105 orig-fasttrack-packets=823 
+              orig-fasttrack-bytes=70 105 repl-packets=948 repl-bytes=70 241 
+              repl-fasttrack-packets=711 repl-fasttrack-bytes=59 601 
+              orig-rate=0bps repl-rate=0bps 
+
+22  SAC F     protocol=tcp src-address=10.20.0.2 src-port=49272 
+              dst-address=192.168.20.2 dst-port=11000 
+              reply-src-address=192.168.20.2 reply-src-port=11000 
+              reply-dst-address=10.20.0.2 reply-dst-port=49272 
+              tcp-state=established timeout=23h59m52s orig-packets=553 
+              orig-bytes=33 821 orig-fasttrack-packets=209 
+              orig-fasttrack-bytes=14 910 repl-packets=552 repl-bytes=32 880 
+              repl-fasttrack-packets=208 repl-fasttrack-bytes=14 193 
+              orig-rate=0bps repl-rate=0bps 
+
+Flags: X - DISABLED; I - INVALID; D - DYNAMIC; L - LOCAL; E - EXTERNAL; 
+A - AGED; a - AGED-PEER 
+ 0   D     mac-address=02:00:5e:96:72:71 interface=vlan10ether3 bridge=bridge10
+           on-interface=vlan10ether3 
+
+ 1   D     mac-address=02:00:5e:39:43:37 interface=vlan10ether3 bridge=bridge10
+           on-interface=vlan10ether3 
+
+ 2   D     mac-address=02:00:5e:f5:16:2e interface=vlan10ether3 bridge=bridge10
+           on-interface=vlan10ether3 
+
+ 3   D     mac-address=02:00:5e:6b:55:70 interface=vlan10ether3 bridge=bridge10
+           on-interface=vlan10ether3 
+
+ 4   DL    mac-address=02:00:5e:5c:a3:9d interface=vlan10ether3 bridge=bridge10
+           on-interface=vlan10ether3 
+
+ 5   DL    mac-address=02:00:5e:f8:35:32 interface=bridge10 bridge=bridge10 
+           on-interface=bridge10 
+
+ 6   DL    mac-address=02:00:5e:53:39:7f interface=vlan10sfp bridge=bridge10 
+           on-interface=vlan10sfp 
+
+ 7   D     mac-address=02:00:5E:C7:83:C0 interface=vlan10sfp bridge=bridge10 
+           on-interface=vlan10sfp 
+
+ 8   D     mac-address=02:00:5E:6E:EA:CE interface=vlan10sfp bridge=bridge10 
+           on-interface=vlan10sfp 
+
+ 9   D     mac-address=02:00:5E:06:62:E4 interface=vlan10sfp bridge=bridge10 
+           on-interface=vlan10sfp 
+
+10   D     mac-address=02:00:5E:4D:A2:68 interface=vlan10ether3 bridge=bridge10
+           on-interface=vlan10ether3 
+
+11   D     mac-address=02:00:5E:FD:BC:11 interface=vlan10cap bridge=bridge10 
+           on-interface=vlan10cap 
+
+12   D     mac-address=02:00:5E:8C:A4:00 interface=vlan10cap bridge=bridge10 
+           on-interface=vlan10cap 
+
+Flags: X - DISABLED, I - INVALID, H - DHCP, D - DYNAMIC, P - PUBLISHED; 
+C - COMPLETE 
+ 0 DC address=10.20.0.7 mac-address=02:00:5E:C7:83:C0 interface=bridge10 
+      published=no status="reachable" vrf=main 
+
+ 1 DC address=10.20.0.10 mac-address=02:00:5e:d6:2a:0f interface=bridge10 
+      published=no status="stale" vrf=main 
+
+ 2 DC address=10.20.0.13 mac-address=02:00:5e:39:43:37 interface=bridge10 
+      published=no status="reachable" vrf=main 
+
+ 3 DC address=10.20.0.6 mac-address=02:00:5E:FD:BC:11 interface=bridge10 
+      published=no status="stale" vrf=main 
+
+ 4 DC address=10.20.0.9 mac-address=02:00:5e:96:72:71 interface=bridge10 
+      published=no status="reachable" vrf=main 
+
+ 5 DC address=10.20.0.2 mac-address=02:00:5e:6b:55:70 interface=bridge10 
+      published=no status="reachable" vrf=main 
+
+ 6 DC address=10.20.0.5 mac-address=02:00:5E:6E:EA:CE interface=bridge10 
+      published=no status="stale" vrf=main 
+
+ 7 DC address=10.20.0.14 mac-address=02:00:5e:f5:16:2e interface=bridge10 
+      published=no status="reachable" vrf=main 
+
+ 8 DC address=10.20.0.4 mac-address=02:00:5E:06:62:E4 interface=bridge10 
+      published=no status="stale" vrf=main 
+
+ 9 D  address=10.20.0.3 mac-address=02:00:5e:85:2c:26 interface=bridge10 
+      published=no status="failed" vrf=main 
+
+10 DC address=10.20.0.12 mac-address=02:00:5E:4D:A2:68 interface=bridge10 
+      published=no status="stale" vrf=main 
+
+11 D  address=10.20.0.11 interface=bridge10 published=no status="failed" 
+      vrf=main 
+
